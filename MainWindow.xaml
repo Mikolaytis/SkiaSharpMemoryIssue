@@ -4,5 +4,8 @@
         Title="SkiaSharp memory issue" Height="450" Width="800">
     <Canvas>
         <Image x:Name="Img"></Image>
+        <TextBlock> Run this app on x64 and then x86<LineBreak/> 
+            Open Task Manager and check out RAM usage<LineBreak/>
+            x64 eats 100mb of CPU RAM every second</TextBlock>
     </Canvas>
 </Window>
